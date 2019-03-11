@@ -22,7 +22,9 @@ function inc(a) {
 }
 
 function dec(a) {
-  return (a-1)
+  return (a - 1)
 }
 
-function 
+function makeInt(a) {
+  return (parseInt(a, 10))
+}
